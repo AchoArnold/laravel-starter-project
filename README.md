@@ -1,15 +1,15 @@
-# Weather App
+# Laravel Starter Project
 
 ### Introduction
-This is an application that allows a user to view the observed (in the past 30 days) or forecasted (in the future) daily weather conditions for a given location using the [Dark Sky API](https://darksky.net/dev/docs).
 
-**Demo URL:** [https://darksky-app.herokuapp.com](https://darksky-app.herokuapp.com/)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/3d71c99c4fd08c124e9e/maintainability)](https://codeclimate.com/github/AchoArnold/laravel-starter-project/maintainability)
+<a href="https://codeclimate.com/github/AchoArnold/laravel-starter-project/test_coverage"><img src="https://api.codeclimate.com/v1/badges/3d71c99c4fd08c124e9e/test_coverage" /></a>
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Build Status](https://travis-ci.org/AchoArnold/laravel-starter-project.svg?branch=master)](https://travis-ci.org/AchoArnold/laravel-starter-project)
 
 ### Tech Stack
 
-- The Frontend of the app is built using tailwindcss, webpack and JQuery. I intend to use VeuJS to do the frontend in the near future.
-
+- The Frontend of the comes with tailwindcss, and Vue.js
 - PHPUnit is used for both unit tests and integration tests. (PS: It's advisable to run the tests using docker) 
 
 
@@ -63,6 +63,6 @@ To run tests, setup the application using the setup process shown above and run 
 
 
 ```bash
-$ docker exec -it --user=laradock laradock_workspace_1 /bin/bash
+$ docker exec -it dark-sky-workspace /bin/bash
 $ phpunit
 ```
