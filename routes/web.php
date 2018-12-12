@@ -12,11 +12,3 @@
 */
 
 app('router')->get('/', 'ShowWelcomeController');
-
-app('router')->post(
-    'api/weather',
-    [
-        'as' => 'api.weather.show',
-        'uses' => 'ApiWeatherController@getWeather',
-    ]
-);
