@@ -38,7 +38,7 @@ trait TestCaseHelperTrait
             $callable = explode('::', $callable);
         }
 
-        if (is_array($callable) && count($callable) === 2 && isset($callable[0], $callable[1])) {
+        if (is_array($callable) && 2 === count($callable) && isset($callable[0], $callable[1])) {
             return (new ReflectionMethod($callable[0], $callable[1]))->getName();
         }
 
