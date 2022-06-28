@@ -13,7 +13,7 @@
         "axios": "^0.18",
         "cross-env": "^5.2.0",
         "laravel-mix": "^2.0",
-        "lodash": "^4.17.5",
+        "lodash": "^4.17.21",
         "tailwindcss": "^0.6.5",
         "vue": "^2.5.17",
         "vuex": "^3.0.1"
